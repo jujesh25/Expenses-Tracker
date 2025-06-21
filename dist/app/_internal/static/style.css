@@ -1,0 +1,129 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="number"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+}
+
+.search-form, .filter-form {
+    margin-bottom: 10px;
+}
+
+.search-form input, .filter-form input {
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-form button, .filter-form button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover, .filter-form button:hover {
+    background-color: #45a049;
+}
+
+.btn {
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
